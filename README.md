@@ -50,11 +50,13 @@
 - 官方最新或主流版本手机 QQ（`com.tencent.mobileqq`）
 
 ### 2. 安装与激活
-1. 前往 [Releases 发布页面](https://github.com/congsmile/qpet-companion/releases) 下载最新的 `app-v1.0.30-debug.apk`。
+1. 前往 [Releases 发布页面](https://github.com/congsmile/qpet-companion/releases) 下载最新的 `app-v1.0.31-debug.apk`。
 2. 打开 **LSPosed Manager**：
    - 在模块列表中找到 **Q宠后台伴侣**。
    - 开启模块，推荐作用域已默认勾选 **QQ (`com.tencent.mobileqq`)**。
 3. 强行停止或重启手机 QQ 使 Hook 规则生效。
+
+> ⚠️ **升级注意**：自 `1.0.31` 起模块包名由 `com.copilot.qqpet` 变更为 `io.github.congsmile.qqpet`（为满足 LSPosed 官方模块仓库的包名归属校验）。从 `1.0.30` 或更早版本升级时，请**先卸载旧版本再安装新版本**，并在 LSPosed 管理器中重新勾选 QQ 作用域，已保存的开关配置会重置。
 
 ### 3. 打开使用
 1. 打开手机 QQ，点击左上角头像 -> 底部「设置」。
@@ -83,7 +85,7 @@ cd qpet-companion
 
 ## 📜 版本规范说明
 
-- 每次代码或功能更新，版本号末位自动递增 `0.0.1`（当前版本：`1.0.30`）。
+- 每次代码或功能更新，版本号末位自动递增 `0.0.1`（当前版本：`1.0.31`）。
 - 对应的 `versionCode` 整数顺延递增。
 
 ---
